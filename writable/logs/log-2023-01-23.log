@@ -1,0 +1,454 @@
+CRITICAL - 2023-01-23 15:42:24 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\UserController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:22:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table('ROOTPATH\\public')
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ZapatoController.php(14): CodeIgniter\Model->__call('orderBy', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:24:44 --> Undefined variable $users
+in APPPATH\Views\zapato\listar.php on line 14.
+ 1 APPPATH\Views\zapato\listar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\zapato\\listar.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:25:26 --> Undefined array key "nombre"
+in APPPATH\Views\zapato\listar.php on line 17.
+ 1 APPPATH\Views\zapato\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\zapato\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:27:21 --> Undefined array key "nombre"
+in APPPATH\Views\zapato\listar.php on line 18.
+ 1 APPPATH\Views\zapato\listar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\zapato\\listar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:29:20 --> Undefined array key "codigestilo"
+in APPPATH\Views\zapato\listar.php on line 18.
+ 1 APPPATH\Views\zapato\listar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigestilo"', 'APPPATH\\Views\\zapato\\listar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:31:11 --> Undefined array key "codigestilo"
+in APPPATH\Views\zapato\listar.php on line 17.
+ 1 APPPATH\Views\zapato\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigestilo"', 'APPPATH\\Views\\zapato\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:31:12 --> Undefined array key "codigestilo"
+in APPPATH\Views\zapato\listar.php on line 17.
+ 1 APPPATH\Views\zapato\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigestilo"', 'APPPATH\\Views\\zapato\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:31:13 --> Undefined array key "codigestilo"
+in APPPATH\Views\zapato\listar.php on line 17.
+ 1 APPPATH\Views\zapato\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigestilo"', 'APPPATH\\Views\\zapato\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:31:27 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:32:19 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:32:52 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:34:06 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:35:57 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:36:59 --> Undefined variable $categorias
+in APPPATH\Views\zapato\listar.php on line 39.
+ 1 APPPATH\Views\zapato\listar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\listar.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(19): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:53:21 --> Undefined variable $categoria
+in APPPATH\Views\zapato\listar.php on line 19.
+ 1 APPPATH\Views\zapato\listar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'APPPATH\\Views\\zapato\\listar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 17:53:45 --> Undefined variable $categoria
+in APPPATH\Views\zapato\listar.php on line 19.
+ 1 APPPATH\Views\zapato\listar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'APPPATH\\Views\\zapato\\listar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:05:02 --> Attempt to read property "categoria_id" on array
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "categoria_id" on array', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:11:20 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\zapato\listar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 3 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:11:35 --> Undefined array key "id"
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:14:42 --> Attempt to read property "vendedores_id" on array
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "vendedores_id" on array', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:15:01 --> Attempt to read property "categoria_id" on array
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "categoria_id" on array', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:21:28 --> Attempt to read property "categoria_id" on array
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "categoria_id" on array', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:22:28 --> Attempt to read property "nombre" on array
+in APPPATH\Views\zapato\listar.php on line 20.
+ 1 APPPATH\Views\zapato\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'APPPATH\\Views\\zapato\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/listar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(24): view('zapato/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:32:05 --> Array to string conversion
+in APPPATH\Controllers\CategoriaController.php on line 43.
+ 1 APPPATH\Controllers\CategoriaController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\CategoriaController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CategoriaController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:33:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Controllers\CategoriaController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CategoriaController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:34:30 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('INSERT INTO table (categoria) VALUES (\'Escolar\')', 'insert')
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert('INSERT INTO table (categoria) VALUES (\'Escolar\')', true)
+ 3 APPPATH\Controllers\CategoriaController.php(46): CodeIgniter\Model->insert('INSERT INTO table (categoria) VALUES (\'Escolar\')')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CategoriaController->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:35:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Controllers\CategoriaController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CategoriaController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 18:47:39 --> Undefined variable $usuario
+in APPPATH\Views\zapato\editar.php on line 11.
+ 1 APPPATH\Views\zapato\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\zapato\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/editar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(94): view('zapato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:24:31 --> Undefined variable $categorias
+in APPPATH\Views\zapato\crear.php on line 29.
+ 1 APPPATH\Views\zapato\crear.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\crear.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(33): view('zapato/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:32:31 --> Undefined variable $zapato
+in APPPATH\Views\zapato\crear.php on line 35.
+ 1 APPPATH\Views\zapato\crear.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zapato', 'APPPATH\\Views\\zapato\\crear.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(35): view('zapato/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:41:15 --> Undefined variable $zapatos
+in APPPATH\Views\zapato\crear.php on line 33.
+ 1 APPPATH\Views\zapato\crear.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zapatos', 'APPPATH\\Views\\zapato\\crear.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(35): view('zapato/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:48:20 --> syntax error, unexpected end of file
+in APPPATH\Views\zapato\crear.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 3 APPPATH\Controllers\ZapatoController.php(38): view('zapato/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:48:32 --> syntax error, unexpected end of file
+in APPPATH\Views\zapato\crear.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 3 APPPATH\Controllers\ZapatoController.php(38): view('zapato/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:48:35 --> syntax error, unexpected end of file
+in APPPATH\Views\zapato\crear.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 3 APPPATH\Controllers\ZapatoController.php(38): view('zapato/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 19:49:52 --> syntax error, unexpected end of file
+in APPPATH\Views\zapato\crear.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/crear', [], true)
+ 3 APPPATH\Controllers\ZapatoController.php(38): view('zapato/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 20:15:10 --> "selected" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('selected')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ZapatoController.php(47): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 20:55:51 --> Undefined variable $usuario
+in APPPATH\Views\zapato\editar.php on line 11.
+ 1 APPPATH\Views\zapato\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\zapato\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/editar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(100): view('zapato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 20:59:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in APPPATH\Controllers\CategoriaController.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CategoriaController->actualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 21:06:31 --> Undefined variable $categorias
+in APPPATH\Views\zapato\editar.php on line 33.
+ 1 APPPATH\Views\zapato\editar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\zapato\\editar.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\zapato\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('zapato/editar', [], true)
+ 5 APPPATH\Controllers\ZapatoController.php(100): view('zapato/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 22:22:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+in APPPATH\Controllers\ZapatoController.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->actualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:30:41 --> Undefined array key "propiedad"
+in APPPATH\Controllers\ZapatoController.php on line 47.
+ 1 APPPATH\Controllers\ZapatoController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "propiedad"', 'APPPATH\\Controllers\\ZapatoController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:32:53 --> print_r() expects at most 2 arguments, 3 given
+in APPPATH\Controllers\ZapatoController.php on line 53.
+ 1 APPPATH\Controllers\ZapatoController.php(53): print_r('ES-121', 'Cuero', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:37:17 --> Undefined property: App\Controllers\ZapatoController::$security
+in APPPATH\Controllers\ZapatoController.php on line 65.
+ 1 APPPATH\Controllers\ZapatoController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ZapatoController::$security', 'APPPATH\\Controllers\\ZapatoController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:38:37 --> Object of class CodeIgniter\Security\Security could not be converted to string
+in APPPATH\Controllers\ZapatoController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:40:41 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('zapato/guardar', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:41:47 --> Object of class CodeIgniter\Security\Security could not be converted to string
+in APPPATH\Controllers\ZapatoController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 23:49:16 --> Object of class CodeIgniter\Security\Security could not be converted to string
+in APPPATH\Controllers\ZapatoController.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ZapatoController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ZapatoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

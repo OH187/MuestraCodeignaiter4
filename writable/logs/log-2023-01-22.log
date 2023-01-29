@@ -1,0 +1,101 @@
+CRITICAL - 2023-01-22 21:59:14 --> Invalid file: "templates/piepagina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/piepagina', [], true)
+ 3 APPPATH\Controllers\UserController.php(13): view('templates/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:00:04 --> Undefined variable $pie
+in APPPATH\Views\users\listar.php on line 3.
+ 1 APPPATH\Views\users\listar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pie', 'APPPATH\\Views\\users\\listar.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/listar', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('users/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:09:32 --> Undefined variable $users
+in APPPATH\Views\users\listar.php on line 13.
+ 1 APPPATH\Views\users\listar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\users\\listar.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/listar', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('users/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:09:50 --> Undefined variable $libro
+in APPPATH\Views\users\listar.php on line 15.
+ 1 APPPATH\Views\users\listar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\users\\listar.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/listar', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('users/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:10:43 --> Undefined array key "apellido"
+in APPPATH\Views\users\listar.php on line 17.
+ 1 APPPATH\Views\users\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellido"', 'APPPATH\\Views\\users\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/listar', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('users/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:14:26 --> Undefined variable $libro
+in APPPATH\Views\users\listar.php on line 20.
+ 1 APPPATH\Views\users\listar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\users\\listar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/listar', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('users/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:46:50 --> Invalid file: "templates/piepagina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/piepagina.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('templates/piepagina', [], true)
+ 3 APPPATH\Controllers\UserController.php(26): view('templates/piepagina')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:47:05 --> Undefined variable $piepagina
+in APPPATH\Views\users\crear.php on line 32.
+ 1 APPPATH\Views\users\crear.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $piepagina', 'APPPATH\\Views\\users\\crear.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users\\crear.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('users/crear', [], true)
+ 5 APPPATH\Controllers\UserController.php(28): view('users/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 22:52:29 --> "xss_clean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'correo3@correo.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(37): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-22 23:07:11 --> Array to string conversion
+in APPPATH\Controllers\UserController.php on line 108.
+ 1 APPPATH\Controllers\UserController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\UserController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
